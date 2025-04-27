@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body{
+  font-family: sans-serif;
+  
+}
+
+#root{
+  overflow-x: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@keyframes mymove {
+  0% {
+    /* -webkit-transform: translateY(10px);
+    transform: translateY(10px); */
+    scale: 1;
+  }
+
+  100% {
+    /* -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); */
+    scale: 1.2;
+  }
+}
+
+
+.brand-image{
+  -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: mymove;
+    animation-name: mymove;
+}
+
+
+.headlineMove {            
+  animation: marquee 30s infinite linear;        
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
