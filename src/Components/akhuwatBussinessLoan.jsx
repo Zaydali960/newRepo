@@ -1,5 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import myImg from '../Images/Loan Scheme.jpg'
 
 const AkhuwatBusinessLoan = () => {
   return (
@@ -62,7 +63,7 @@ Akhuwat's loan program can help you make your dreams come true, whether you want
         </div>
         <div className="col-lg-5 col-md-6 text-center p-3">
           <img
-            src="https://akhuwatloanschemepk.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-06-12-at-3.15.37-PM-768x768-1.jpeg"
+            src={myImg}
             alt="Entrepreneur Support"
             className="img-fluid wm-100 h-80"
             style={{ objectFit: "cover" }}

@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import SecImg from '../Images/12.jpg'
-import FirstImg from '../Images/12.jpg'
+import FirstImg from '../Images/11.jpg'
 
 const AkhuwatLoanServices = () => {
   return (

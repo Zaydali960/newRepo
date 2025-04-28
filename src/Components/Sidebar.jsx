@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link } from "react-router-dom";
 
+import myImg from '../Images/House Loan.jpg'
 
 const Sidebar = () => {
   return (
@@ -65,7 +66,7 @@ const Sidebar = () => {
       <div className="w-1/4 promo-container bg-white p-4 rounded shadow-sm">
         <Link to="/apply-now">
           <img 
-            src="https://akhuwatloanschemepk.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-3.15.36-PM-1-768x432.jpeg" 
+            src={myImg}
             alt="Akhuwat Loan Promotion" 
             className="img-fluid rounded"
           />

@@ -11,8 +11,8 @@ const AkhuwatImages = () => {
           <img 
             src={bussinessOwner} 
             alt="Hasina Bibi - Stitching Business" 
-            className="img-fluid rounded"
-            style={{ height: '600px', maxWidth: '110%', objectFit: 'cover' }}
+            className="img-fluid rounded mx-5"
+            style={{ height: '500px', maxWidth: '250%', objectFit: 'cover' }}
           />
         </div>
   
@@ -20,8 +20,8 @@ const AkhuwatImages = () => {
           <img 
             src={Farmer}
             alt="Farzana Bibi - Beauty Parlour" 
-            className="img-fluid rounded"
-            style={{ height: '600px', maxWidth: '112%', objectFit: 'cover' }}
+            className="img-fluid rounded mx-5"
+            style={{ height: '450px', maxWidth: '250%', objectFit: 'cover' }}
           />
         </div>
       </div>

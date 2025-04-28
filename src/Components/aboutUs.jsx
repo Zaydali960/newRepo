@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import Infographic from '../Images/Infograph.png'
 import aboutUsImg from '../Images/Akhuwat loan service.jpg'
+import SecAboutus from '../Images/For house loan.jpg'
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
@@ -116,7 +117,7 @@ const AboutUs = () => {
               </p>
               <div className="my-5 text-center">
                 <img 
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSALmdhxA9KF3l9mBQ9HH7zYqH-wnm1S1qdJQ&s" 
+                  src={SecAboutus}
                   alt="Akhuwat Loan Values Diagram" 
                   className="img-fluid rounded shadow-sm" 
                 />
